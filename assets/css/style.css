@@ -1,0 +1,36 @@
+@font-face{font-family:'Pretendard Variable';src:url(../fonts/PretendardVariable-subset.woff2) format('woff2');font-weight:45 920;font-style:normal;font-display:swap}
+body{margin:0;background:#FFF9F6;-webkit-text-size-adjust:100%}
+a{color:#C23A00}a:hover{color:#8F2A00}
+button{font-family:inherit}
+.grad-text-sm{color:#B33500;background:linear-gradient(100deg,#A83200 0%,#C23A00 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.grad-text-light{color:#FF8A4D;background:linear-gradient(100deg,#FF6B33 0%,#FFB070 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.pick{transition:border-color .2s,background-color .2s}
+.pick:hover{border-color:#8A7F7A}
+.pick:focus-visible,.seg:focus-visible,.alt:focus-visible{outline:2px solid #FF4802;outline-offset:3px}
+.alt:hover{border-color:#CFC5C0}
+.oc-copy{transition:background-color .2s}
+.oc-copy:hover{background:rgba(255,255,255,0.18) !important}
+.oc-copy:focus-visible{outline:2px solid #FFB070;outline-offset:2px}
+.oc-cta{transition:background-color .2s}
+.oc-cta:hover{background:#FF6B33 !important}
+.oc-cta:focus-visible{outline:2px solid #FFB070;outline-offset:3px}
+.qr-link{transition:border-color .2s}
+.qr-link:hover{border-color:#CFC5C0 !important}
+.qr-link:focus-visible{outline:2px solid #FF4802;outline-offset:2px}
+.help-link{transition:border-color .2s,background-color .2s}
+.help-link:hover{border-color:#8A7F7A;background-color:rgba(255,255,255,0.1) !important}
+.help-link:focus-visible{outline:2px solid #FF4802;outline-offset:3px}
+.zoom:focus-visible{outline:3px solid #FF4802;outline-offset:-3px}
+.zoom:hover .zoom-badge{background:#C23A00 !important}
+.zbtn:focus-visible{outline:2px solid #FF8A4D;outline-offset:2px}
+.zbtn[aria-disabled="true"]{opacity:.35;cursor:default !important}
+.faq summary{list-style:none;cursor:pointer}.faq summary::-webkit-details-marker{display:none}
+.faq .faq-chev{transition:transform .2s}.faq details[open] .faq-chev{transform:rotate(180deg)}
+.faq summary:focus-visible{outline:2px solid #FF4802;outline-offset:-2px;border-radius:12px}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+[hidden]{display:none !important}
+.pick{border:2px solid #4A403C;background:rgba(255,255,255,0.04)}
+.pick[aria-pressed="true"]{border-color:#FF4802 !important;background:rgba(255,72,2,0.12)}
+.seg{background:transparent;color:#5A524E}
+.seg[aria-pressed="true"]{background:#2B2523;color:#FFFFFF}
+
